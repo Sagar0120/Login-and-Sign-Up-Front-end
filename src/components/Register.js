@@ -17,7 +17,6 @@ class Register extends React.Component {
     this.changepasshandler = this.changepasshandler.bind(this);
     this.changOTPhandler = this.changOTPhandler.bind(this);
 
-    
   }
 
   changenamehandler = (event) => {
