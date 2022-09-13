@@ -1,7 +1,22 @@
 import React from "react";
 
 class Register extends React.Component {
-  
+  constructor() {
+    super();
+
+    this.state = {
+      name: "",
+      email: "",
+      phone: "",
+      password: "",
+      otp: "",
+    };
+    this.changenamehandler = this.changenamehandler.bind(this);
+    this.changemailhandler = this.changemailhandler.bind(this);
+    this.changephonehandler = this.changephonehandler.bind(this);
+    this.changepasshandler = this.changepasshandler.bind(this);
+    this.changOTPhandler = this.changOTPhandler.bind(this);
+  }
 
   changenamehandler = (event) => {
     this.setState({ name: event.target.value });
