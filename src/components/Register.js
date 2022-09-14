@@ -10,6 +10,7 @@ class Register extends React.Component {
       phone: "",
       password: "",
       otp: "",
+      
     };
     this.changenamehandler = this.changenamehandler.bind(this);
     this.changemailhandler = this.changemailhandler.bind(this);
